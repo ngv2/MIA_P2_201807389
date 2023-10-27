@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <title>Profile - MIA-P2</title>
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+   </head>
+   <body id="page-top">
+      <div id="wrapper">
+         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+               <hr class="sidebar-divider my-0">
+               <ul class="navbar-nav text-light" id="accordionSidebar">
+                  <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa fa-play"></i><span>Ejecución</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="login.html"><i class="far fa-user-circle"></i><span>Iniciar Sesión</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="reportes.html"><i class="fa fa-file-pdf-o"></i><span>Reportes</span></a></li>
+               </ul>
+            </div>
+         </nav>
+         <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+               <div class="container-fluid">
+                  <h3 class="text-dark mb-4">Manejo e Implementacion de Archivos</h3>
+                  <div class="card shadow mb-5">
+                     <div class="card-header py-3">
+                        <p class="text-primary m-0 fw-bold">Cargar Archivo</p>
+                        <input type="file" id="fileChooser" onchange="readFile(event)">
+                     </div>
+                     <div class="card-body">
+                        <textarea id="commandTextArea" style="min-width: 50%;width: 95%;max-width: 95%;height: 500px;" placeholder="Escriba aqui sus comandos"></textarea>
+                        <button class="btn btn-primary" type="button" onclick="executeCommand()">Enviar Comandos</button>
+                        <p id="consoleOutputLabel">Salida de Consola:</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+               <div class="container my-auto">
+               </div>
+            </footer>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/script.js"></script>
+      <script src="assets/js/execute.js"></script>
+   </body>
+</html>
