@@ -1,0 +1,472 @@
+digraph G {
+rankdir="LR";
+nodesep=1.1;
+node [ shape=none fontname=Helvetica ]
+splines=polyline;
+inode0[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #0</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">0</td></tr>
+<tr><td>AP1</td><td port="i1">12</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode0:i0:e -> block0:title:w[minlen=2];
+block0[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #0</td></tr>
+<tr><td>/</td><td port="i0">0</td></tr>
+<tr><td>/</td><td port="i1">0</td></tr>
+<tr><td>users.txt</td><td port="i2">1</td></tr>
+<tr><td>test</td><td port="i3">2</td></tr>
+</table> >];
+block0:i2:e -> inode1:title:w[minlen=2];
+inode1[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #1</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:54</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">1</td></tr>
+<tr><td>AP1</td><td port="i1">2</td></tr>
+<tr><td>AP2</td><td port="i2">3</td></tr>
+<tr><td>AP3</td><td port="i3">4</td></tr>
+<tr><td>AP4</td><td port="i4">5</td></tr>
+<tr><td>AP5</td><td port="i5">6</td></tr>
+<tr><td>AP6</td><td port="i6">7</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>1</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode1:i0:e -> block1:title:w[minlen=2];
+block1[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #1</td></tr>
+<tr><td align="text" colspan="2">1,G,root\\n<br align="left"/>1,U,root,root,123\\n<br align="left"/>2,G,usuarios1\\n<br align="left"/>3,G,usuarios2\\n<br align="left"/>4,G,usuar<br align="left"/></td></tr>
+</table> >];
+inode1:i1:e -> block2:title:w[minlen=2];
+block2[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #2</td></tr>
+<tr><td align="text" colspan="2">ios3\\n<br align="left"/>5,G,usuarios4\\n<br align="left"/>6,G,usuarios5\\n<br align="left"/>7,G,usuarios6\\n<br align="left"/>8,G,usuarios7\\n<br align="left"/>9,G<br align="left"/></td></tr>
+</table> >];
+inode1:i2:e -> block3:title:w[minlen=2];
+block3[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #3</td></tr>
+<tr><td align="text" colspan="2">,usuarios8\\n<br align="left"/>0,G,usuarios9\\n<br align="left"/>0,G,usuarios10\\n<br align="left"/>12,G,usuarios11\\n<br align="left"/>2,U,usua<br align="left"/></td></tr>
+</table> >];
+inode1:i3:e -> block4:title:w[minlen=2];
+block4[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #4</td></tr>
+<tr><td align="text" colspan="2">rios11,user1,usuario\\n<br align="left"/>0,U,usuarios11,user2,usuario\\n<br align="left"/>4,U,usuarios5,<br align="left"/></td></tr>
+</table> >];
+inode1:i4:e -> block5:title:w[minlen=2];
+block5[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #5</td></tr>
+<tr><td align="text" colspan="2">user3,usuario\\n<br align="left"/>0,U,usuarios5,user4,usuario\\n<br align="left"/>6,U,usuarios5,user5,us<br align="left"/></td></tr>
+</table> >];
+inode1:i5:e -> block6:title:w[minlen=2];
+block6[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #6</td></tr>
+<tr><td align="text" colspan="2">uario\\n<br align="left"/>13,G,usuarios12\\n<br align="left"/>14,G,usuarios13\\n<br align="left"/>15,G,usuarios14\\n<br align="left"/>16,G,PRUEB<br align="left"/></td></tr>
+</table> >];
+inode1:i6:e -> block7:title:w[minlen=2];
+block7[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #7</td></tr>
+<tr><td align="text" colspan="2">A\\n<br align="left"/>17,G,pRu3bA2\\n<br align="left"/><br align="left"/></td></tr>
+</table> >];
+block0:i3:e -> inode2:title:w[minlen=2];
+inode2[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #2</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">8</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode2:i0:e -> block8:title:w[minlen=2];
+block8[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #8</td></tr>
+<tr><td>/</td><td port="i0">0</td></tr>
+<tr><td>test</td><td port="i1">2</td></tr>
+<tr><td>test2</td><td port="i2">3</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block8:i2:e -> inode3:title:w[minlen=2];
+inode3[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #3</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">9</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode3:i0:e -> block9:title:w[minlen=2];
+block9[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #9</td></tr>
+<tr><td>test</td><td port="i0">2</td></tr>
+<tr><td>test2</td><td port="i1">3</td></tr>
+<tr><td>test3</td><td port="i2">4</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block9:i2:e -> inode4:title:w[minlen=2];
+inode4[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #4</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">10</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode4:i0:e -> block10:title:w[minlen=2];
+block10[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #10</td></tr>
+<tr><td>test2</td><td port="i0">3</td></tr>
+<tr><td>test3</td><td port="i1">4</td></tr>
+<tr><td>test4</td><td port="i2">5</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block10:i2:e -> inode5:title:w[minlen=2];
+inode5[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #5</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">11</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode5:i0:e -> block11:title:w[minlen=2];
+block11[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #11</td></tr>
+<tr><td>test3</td><td port="i0">4</td></tr>
+<tr><td>test4</td><td port="i1">5</td></tr>
+<tr><td>-</td><td port="i2">-1</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+inode0:i1:e -> block12:title:w[minlen=2];
+block12[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #12</td></tr>
+<tr><td>home</td><td port="i0">6</td></tr>
+<tr><td>-00000000000</td><td port="i1">-1</td></tr>
+<tr><td>-00000000000</td><td port="i2">-1</td></tr>
+<tr><td>-00000000000</td><td port="i3">-1</td></tr>
+</table> >];
+block12:i0:e -> inode6:title:w[minlen=2];
+inode6[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #6</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">13</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode6:i0:e -> block13:title:w[minlen=2];
+block13[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #13</td></tr>
+<tr><td>/</td><td port="i0">0</td></tr>
+<tr><td>home</td><td port="i1">6</td></tr>
+<tr><td>user</td><td port="i2">7</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block13:i2:e -> inode7:title:w[minlen=2];
+inode7[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #7</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">14</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode7:i0:e -> block14:title:w[minlen=2];
+block14[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #14</td></tr>
+<tr><td>home</td><td port="i0">6</td></tr>
+<tr><td>user</td><td port="i1">7</td></tr>
+<tr><td>docs</td><td port="i2">8</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block14:i2:e -> inode8:title:w[minlen=2];
+inode8[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #8</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">15</td></tr>
+<tr><td>AP1</td><td port="i1">-1</td></tr>
+<tr><td>AP2</td><td port="i2">-1</td></tr>
+<tr><td>AP3</td><td port="i3">-1</td></tr>
+<tr><td>AP4</td><td port="i4">-1</td></tr>
+<tr><td>AP5</td><td port="i5">-1</td></tr>
+<tr><td>AP6</td><td port="i6">-1</td></tr>
+<tr><td>AP7</td><td port="i7">-1</td></tr>
+<tr><td>AP8</td><td port="i8">-1</td></tr>
+<tr><td>AP9</td><td port="i9">-1</td></tr>
+<tr><td>AP10</td><td port="i10">-1</td></tr>
+<tr><td>AP11</td><td port="i11">-1</td></tr>
+<tr><td>AP12</td><td port="i12">-1</td></tr>
+<tr><td>AP13</td><td port="i13">-1</td></tr>
+<tr><td>AP14</td><td port="i14">-1</td></tr>
+<tr><td>AP15</td><td port="i15">-1</td></tr>
+<tr><td>i_type</td><td>0</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode8:i0:e -> block15:title:w[minlen=2];
+block15[label=< <table cellspacing="0" border="1" bgcolor="darksalmon">
+(<tr><td colspan="2" PORT="title">Bloque Directorio #15</td></tr>
+<tr><td>user</td><td port="i0">7</td></tr>
+<tr><td>docs</td><td port="i1">8</td></tr>
+<tr><td>a.txt</td><td port="i2">9</td></tr>
+<tr><td>-</td><td port="i3">-1</td></tr>
+</table> >];
+block15:i2:e -> inode9:title:w[minlen=2];
+inode9[label=< <table cellspacing="0" border="1" bgcolor="dodgerblue">
+<tr><td colspan="2" PORT="title">Inodo #9</td></tr>
+<tr><td>i_uid</td><td>1</td></tr>
+<tr><td>i_gid</td><td>1</td></tr>
+<tr><td>i_size</td><td>105</td></tr>
+<tr><td>i_open_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_creation_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>i_modify_time</td><td>2023-10-17 01:06:53</td></tr>
+<tr><td>AP0</td><td port="i0">16</td></tr>
+<tr><td>AP1</td><td port="i1">17</td></tr>
+<tr><td>AP2</td><td port="i2">18</td></tr>
+<tr><td>AP3</td><td port="i3">19</td></tr>
+<tr><td>AP4</td><td port="i4">20</td></tr>
+<tr><td>AP5</td><td port="i5">21</td></tr>
+<tr><td>AP6</td><td port="i6">22</td></tr>
+<tr><td>AP7</td><td port="i7">23</td></tr>
+<tr><td>AP8</td><td port="i8">24</td></tr>
+<tr><td>AP9</td><td port="i9">25</td></tr>
+<tr><td>AP10</td><td port="i10">26</td></tr>
+<tr><td>AP11</td><td port="i11">27</td></tr>
+<tr><td>AP12</td><td port="i12">28</td></tr>
+<tr><td>AP13</td><td port="i13">29</td></tr>
+<tr><td>AP14</td><td port="i14">30</td></tr>
+<tr><td>AP15</td><td port="i15">31</td></tr>
+<tr><td>i_type</td><td>1</td></tr>
+<tr><td>i_perm</td><td>644</td></tr>
+</table> >];
+inode9:i0:e -> block16:title:w[minlen=2];
+block16[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #16</td></tr>
+<tr><td align="text" colspan="2">Mata-sanos practicantes,\\n<br align="left"/>del emplasto fabricantes,\\n<br align="left"/>guisachines d<br align="left"/></td></tr>
+</table> >];
+inode9:i1:e -> block17:title:w[minlen=2];
+block17[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #17</td></tr>
+<tr><td align="text" colspan="2">el lugar,\\n<br align="left"/>estudiantes:\\n<br align="left"/>en sonora carcajada\\n<br align="left"/>porrumpid. Ja. Ja.\\n<br align="left"/>\\n<br align="left"/>S<br align="left"/></td></tr>
+</table> >];
+inode9:i2:e -> block18:title:w[minlen=2];
+block18[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #18</td></tr>
+<tr><td align="text" colspan="2">obre los hediondos males\\n<br align="left"/>de la patria, arrojad flores\\n<br align="left"/>ya que no <br align="left"/></td></tr>
+</table> >];
+inode9:i3:e -> block19:title:w[minlen=2];
+block19[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #19</td></tr>
+<tr><td align="text" colspan="2">sois liberales\\n<br align="left"/>ni menos conservadores:\\n<br align="left"/>malos bichos sin concienc<br align="left"/></td></tr>
+</table> >];
+inode9:i4:e -> block20:title:w[minlen=2];
+block20[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #20</td></tr>
+<tr><td align="text" colspan="2">ia\\n<br align="left"/>que la apresan en sus dientes\\n<br align="left"/>y la chupan inclementes\\n<br align="left"/>la fuer<br align="left"/></td></tr>
+</table> >];
+inode9:i5:e -> block21:title:w[minlen=2];
+block21[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #21</td></tr>
+<tr><td align="text" colspan="2">za de su existencia.\\n<br align="left"/>\\n<br align="left"/>Mata-sanos practicantes,\\n<br align="left"/>del emplasto fabr<br align="left"/></td></tr>
+</table> >];
+inode9:i6:e -> block22:title:w[minlen=2];
+block22[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #22</td></tr>
+<tr><td align="text" colspan="2">icantes,\\n<br align="left"/>guisachines del lugar,\\n<br align="left"/>choteadores:\\n<br align="left"/>en sonara carcajada<br align="left"/></td></tr>
+</table> >];
+inode9:i7:e -> block23:title:w[minlen=2];
+block23[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #23</td></tr>
+<tr><td align="text" colspan="2">\\n<br align="left"/>porrumpid. Ja. Ja.\\n<br align="left"/>Reid de los liberales\\n<br align="left"/>y de los conservadores<br align="left"/></td></tr>
+</table> >];
+inode9:i8:e -> block24:title:w[minlen=2];
+block24[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #24</td></tr>
+<tr><td align="text" colspan="2">.\\n<br align="left"/>\\n<br align="left"/>Nuestro quetzal espantado\\n<br align="left"/>por un ideal que no existe\\n<br align="left"/>se puso <br align="left"/></td></tr>
+</table> >];
+inode9:i9:e -> block25:title:w[minlen=2];
+block25[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #25</td></tr>
+<tr><td align="text" colspan="2">las de hule al prado\\n<br align="left"/>mas mudo, pelado y triste;\\n<br align="left"/>y en su lugar er<br align="left"/></td></tr>
+</table> >];
+inode9:i10:e -> block26:title:w[minlen=2];
+block26[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #26</td></tr>
+<tr><td align="text" colspan="2">igieron\\n<br align="left"/>cinco extinguidos volcanes,\\n<br align="left"/>que un cinco tambien se hund<br align="left"/></td></tr>
+</table> >];
+inode9:i11:e -> block27:title:w[minlen=2];
+block27[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #27</td></tr>
+<tr><td align="text" colspan="2">ireron\\n<br align="left"/>bajo rudos ya (taganes).\\n<br align="left"/>\\n<br align="left"/>Mata-sanos practicantes,\\n<br align="left"/>del em<br align="left"/></td></tr>
+</table> >];
+inode9:i12:e -> block28:title:w[minlen=2];
+block28[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #28</td></tr>
+<tr><td align="text" colspan="2">plasto fabricantes,\\n<br align="left"/>guisachines del lugar,\\n<br align="left"/>hermanitos:\\n<br align="left"/>en sonora<br align="left"/></td></tr>
+</table> >];
+inode9:i13:e -> block29:title:w[minlen=2];
+block29[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #29</td></tr>
+<tr><td align="text" colspan="2"> carcajada\\n<br align="left"/>porrumpid. Ja. Ja.\\n<br align="left"/>Reid de los volcancitos\\n<br align="left"/>y del chot<br align="left"/></td></tr>
+</table> >];
+inode9:i14:e -> block30:title:w[minlen=2];
+block30[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #30</td></tr>
+<tr><td align="text" colspan="2">eado quetzal.\\n<br align="left"/>\\n<br align="left"/>Contemplad los militares\\n<br align="left"/>que en la paz carrera hi<br align="left"/></td></tr>
+</table> >];
+inode9:i15:e -> block31:title:w[minlen=2];
+block31[label=< <table cellspacing="0" border="1" bgcolor="goldenrod1">
+<tr><td colspan="2" PORT="title">Bloque Archivo #31</td></tr>
+<tr><td align="text" colspan="2">cieron;\\n<br align="left"/>vuestros jueces a millares\\n<br align="left"/>que la justicia vendieron;\\n<br align="left"/>42<br align="left"/></td></tr>
+</table> >];
+}

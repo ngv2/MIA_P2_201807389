@@ -1,0 +1,92 @@
+digraph {
+
+  node [ shape=none fontname=Helvetica ]
+
+  n1 [ label = <
+<table cellspacing="0" border="1">
+  <tr>
+<td colspan="2" bgcolor="#238b45" border="0" width="300px">REPORTE SUPERBLOQUE 891Disco1</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">sb_nombre_hd</td>
+<td bgcolor="#74c476" border="0" align="left">Disco1.dsk</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_filesystem_type</td>
+<td bgcolor="#edf8e9" border="0" align="left">EXT2</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_inodes_count</td>
+<td bgcolor="#74c476" border="0" align="left">17417</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_blocks_count</td>
+<td bgcolor="#edf8e9" border="0" align="left">52251</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_free_inodes_count</td>
+<td bgcolor="#74c476" border="0" align="left">17407</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_free_blocks_count</td>
+<td bgcolor="#edf8e9" border="0" align="left">52219</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_mount_time</td>
+<td bgcolor="#74c476" border="0" align="left">2023-10-17 07:06:53</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_unmount_time</td>
+<td bgcolor="#edf8e9" border="0" align="left">2023-10-17 07:06:53</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_mnt_count</td>
+<td bgcolor="#74c476" border="0" align="left">0</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0" >s_magic</td>
+<td bgcolor="#edf8e9" border="0" align="left">0xEF53</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0" >s_inode_size</td>
+<td bgcolor="#74c476" border="0" align="left">105</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_block_size</td>
+<td bgcolor="#edf8e9" border="0" align="left">64</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_inode_start</td>
+<td bgcolor="#74c476" border="0" align="left">377121</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_block_start</td>
+<td bgcolor="#edf8e9" border="0" align="left">2205906</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_first_inode</td>
+<td bgcolor="#74c476" border="0" align="left">10</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_first_block</td>
+<td bgcolor="#edf8e9" border="0" align="left">32</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_bm_inode_start</td>
+<td bgcolor="#74c476" border="0" align="left">307453</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_bm_block_start</td>
+<td bgcolor="#edf8e9" border="0" align="left">324870</td>
+</tr>
+<tr>
+<td bgcolor="#74c476" border="0">s_inode_start</td>
+<td bgcolor="#74c476" border="0" align="left">377121</td>
+</tr>
+<tr>
+<td bgcolor="#edf8e9" border="0">s_block_start</td>
+<td bgcolor="#edf8e9" border="0" align="left">2205906</td>
+</tr>
+</table>
+  > ]
+}

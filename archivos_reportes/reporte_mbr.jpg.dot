@@ -1,0 +1,224 @@
+
+        digraph {
+          node [ shape=none fontname=Helvetica ]
+        
+          n1 [ label = <
+          <table cellspacing="0" border="1">
+            <tr>
+              <td colspan="2" bgcolor="#810f7c" border="0" width="300px">REPORTE MBR</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">mbr_size</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">10485760</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">mbr_creation_date</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">Tue, 17-10-2023 01:06:53</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">mbr_dsk_signature</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">725342419</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">mbr_dsk_fit</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">F</td>
+            </tr>
+        
+            <tr>
+              <td colspan="2" bgcolor="#810f7c" border="0">Particion</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_status</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">T</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_type</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">P</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_fit</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">W</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_start</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">161</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_size</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">307200</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_name</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">Particion1</td>
+            </tr>
+        
+            <tr>
+              <td colspan="2" bgcolor="#810f7c" border="0">Particion</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_status</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">T</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_type</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">P</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_fit</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">W</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_start</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">307361</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_size</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">5242880</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_name</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">Parti2</td>
+            </tr>
+        
+            <tr>
+              <td colspan="2" bgcolor="#810f7c" border="0">Particion</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_status</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">T</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_type</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">E</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_fit</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">W</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_start</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">5550241</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_size</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">4194304</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_name</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">Partic3</td>
+            </tr>
+        
+            <tr>
+            <td colspan="2" bgcolor="#D94801" border="0">Particion Logica</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FEF9F5" border="0">part_status</td>
+            <td bgcolor="#FEF9F5" border="0" align="left">T</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FDD0A2" border="0">part_next</td>
+            <td bgcolor="#FDD0A2" border="0" align="left">6598859</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FEF9F5" border="0">part_fit</td>
+            <td bgcolor="#FEF9F5" border="0" align="left">B</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FDD0A2" border="0">part_start</td>
+            <td bgcolor="#FDD0A2" border="0" align="left">5550283</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FEF9F5" border="0">part_size</td>
+            <td bgcolor="#FEF9F5" border="0" align="left">1048576</td>
+            </tr>
+            <tr>
+            <td bgcolor="#FDD0A2" border="0">part_name</td>
+            <td bgcolor="#FDD0A2" border="0" align="left">PartL1</td>
+            </tr>
+        
+                <tr>
+                <td colspan="2" bgcolor="#D94801" border="0">Particion Logica</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_status</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">T</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_next</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">7647477</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_fit</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">B</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_start</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">6598901</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_size</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">1048576</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_name</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">PartL2</td>
+                </tr>
+            
+                <tr>
+                <td colspan="2" bgcolor="#D94801" border="0">Particion Logica</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_status</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">T</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_next</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">0</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_fit</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">B</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_start</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">7647519</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FEF9F5" border="0">part_size</td>
+                <td bgcolor="#FEF9F5" border="0" align="left">2048000</td>
+                </tr>
+                <tr>
+                <td bgcolor="#FDD0A2" border="0">part_name</td>
+                <td bgcolor="#FDD0A2" border="0" align="left">PartL3</td>
+                </tr>
+            
+            <tr>
+              <td colspan="2" bgcolor="#810f7c" border="0">Particion</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_status</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">F</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_type</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">P</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_fit</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">W</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_start</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">0</td>
+            </tr>
+            <tr>
+              <td bgcolor="#C9B5DF" border="0">part_size</td>
+              <td bgcolor="#C9B5DF" border="0" align="left">0</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F7FCFD" border="0">part_name</td>
+              <td bgcolor="#F7FCFD" border="0" align="left">-</td>
+            </tr>
+        </table>
+  > ]
+}

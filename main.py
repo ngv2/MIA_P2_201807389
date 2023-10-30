@@ -34,7 +34,48 @@ def main():
     return jsonify(response)
 
 
+@app.route('/lista_reportes', methods=['GET'])
+def lista_reportes():
+    global final_list, cwd
+    final_list = ""
+    cwd = "reportes"
 
+    def print_file_path(directory, _files):
+        global final_list, cwd
+        for file in _files:
+            final_list += os.path.join(".", directory, file).lstrip("./\\")[len(cwd):] + "\n"
+
+    for root, a, files in os.walk(cwd):
+        print_file_path(root, files)
+
+    response = {
+        'list': final_list.rstrip("\n"),
+        'return_code': 0
+    }
+    return jsonify(response)
+
+
+@app.route('/obtener_reporte', methods=['POST'])
+def get_report():
+    request_content = request.json
+    print(request_content)
+
+    file_path = os.path.join("./reportes", request_content["path"].lstrip("\\"))
+    if not os.path.isfile(file_path):
+        return "File not found", 404
+
+    with open(file_path, "rb") as file:
+        file_content = file.read()
+
+    if file_path.endswith(".txt"):
+        response_data = {
+            "Content": file_content.decode('utf-8'),
+            "ExitStatus": 200
+        }
+        return Response(json.dumps(response_data), content_type='application/json')
+
+    mime_type, _ = mimetypes.guess_type(file_path)
+    return Response(file_content, content_type=mime_type)
 
 
 if __name__ == '__main__':

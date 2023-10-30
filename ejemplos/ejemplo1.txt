@@ -1,0 +1,58 @@
+mkdisk -size=10 -path=Disco1.dsk
+fdisk -size=300 -path=Disco1.dsk -name=Particion1
+fdisk -size=5 -unit=M -path=Disco1.dsk -name=Parti2
+fdisk -type=E -unit=M -size=4 -path=Disco1.dsk -name=Partic3
+fdisk -size=1 -type=L -unit=M -fit=bf -path="Disco1.dsk" -name="PartL1"
+fdisk -size=1 -type=L -unit=M -fit=bf -path="Disco1.dsk" -name="PartL2"
+fdisk -size=2000 -type=L -unit=K -fit=bf -path="Disco1.dsk" -name="PartL3"
+
+mount -path="./Disco1.dsk" -name=Parti2
+mount -path="./Disco1.dsk" -name=Particion1
+mount -path="./Disco1.dsk" -name=Partic3
+mount -path="./Disco1.dsk" -name=PartL2
+mount -path="./Disco1.dsk" -name=PartL3
+
+mkfs -type=full -id=891Disco1
+login -user=root -pass=123 -id=891Disco1
+
+mkgrp -name=usuarios1
+mkgrp -name=usuarios2
+mkgrp -name=usuarios3
+mkgrp -name=usuarios4
+mkgrp -name=usuarios5
+mkgrp -name=usuarios6
+mkgrp -name=usuarios7
+mkgrp -name=usuarios8
+mkgrp -name=usuarios9
+mkgrp -name=usuarios10
+mkgrp -name=usuarios11
+mkusr -user=user1 -pass=usuario -grp=usuarios11
+mkusr -user=user2 -pass=usuario -grp=usuarios11
+mkusr -user=user3 -pass=usuario -grp=usuarios5
+mkusr -user=user4 -pass=usuario -grp=usuarios5
+mkusr -user=user5 -pass=usuario -grp=usuarios5
+mkgrp -name=usuarios12
+rmgrp -name=usuarios10
+rmgrp -name=usuarios9
+mkgrp -name=usuarios13
+mkgrp -name=usuarios14
+
+
+RMUSR -user=user4
+RMUSR -user=user2
+
+mkgrp -name=PRUEBA
+mkgrp -name=pRu3bA2
+
+mkdir -r -path=/test/test2/test3/test4
+mkfile -size=15 -cont=ejemplos/chalana.txt -path=/home/user/docs/a.txt -r
+
+
+rep -id=891Disco1 -path=reporte_mbr.jpg -name=mbr
+rep -id=891Disco1 -path=reporte_disk.jpg -name=disk
+rep -id=891Disco1 -path=reporte_bm_inode.jpg -name=bm_inode
+rep -id=891Disco1 -path=reporte_bm_block.jpg -name=bm_block
+rep -id=891Disco1 -path=reporte_sb.jpg -name=sb
+rep -id=891Disco1 -path=reporte_file_users.txt -name=file -ruta="/users.txt"
+rep -id=891Disco1 -path=reporte_tree.jpg -name=tree
+

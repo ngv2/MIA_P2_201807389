@@ -1,0 +1,26 @@
+digraph {
+
+  node [ shape=none fontname=Helvetica ]
+
+  n1 [ label = <
+<table>
+  <tr>
+<td bgcolor="yellow" width="0px">MBR<br/>161bytes<br/>0.002% del disco </td>
+<td bgcolor="darkgreen" width="87px">Particion1<br/>307200bytes<br/>2.93% del disco </td>
+<td bgcolor="darkgreen" width="1500px">Parti2<br/>5242880bytes<br/>50% del disco </td>
+<td><table><tr>
+<td bgcolor="aquamarine4" width="150.5px">Partic3<br/>4194304bytes<br/>40% del disco </td>
+<td bgcolor="aquamarine" width="150.5px">EBR<br/>0% del disco </td>
+<td bgcolor="orange" width="300px">PartL1<br/>1048576 bytes <br/>10% del disco </td>
+<td bgcolor="aquamarine" width="150.5px">EBR<br/>0% del disco </td>
+<td bgcolor="orange" width="300px">PartL2<br/>1048576 bytes<br/>10% del disco </td>
+<td bgcolor="aquamarine" width="150.5px">EBR<br/>0% del disco </td>
+<td bgcolor="orange" width="585.938px">PartL3<br/>2048000 bytes<br/>19.531% del disco </td>
+<td bgcolor="lightgray" width="14.026px">free<br/>49026bytes<br/>0.468% del disco </td>
+</tr>
+</table></td>
+<td bgcolor="lightgray" width="212px">free<br/>741215bytes<br/>7.069% del disco </td>
+</tr>
+</table>
+  > ]
+}
